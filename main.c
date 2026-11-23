@@ -26,7 +26,7 @@ int main(void)
         printf("NG");
         return 0;
     }
-
+  
     divmod(x, y, &q, &r);
     printf("%d,%d", q, r);
     return 0;
